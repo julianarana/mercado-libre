@@ -1,0 +1,45 @@
+{
+  "name": "market-search",
+  "version": "1.0.0",
+  "description": "Challenge for Mercadolibre",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --env=dev",
+    "build": "webpack --mode production --env=prod",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "@types/html-webpack-plugin": "^3.2.4",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/webpack": "^4.41.26",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^5.0.2",
+    "eslint": "^7.20.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^5.1.0",
+    "jest": "^26.6.3",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
